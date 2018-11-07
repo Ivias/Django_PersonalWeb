@@ -9,10 +9,6 @@ def home(request):
 def contact(request):
     return render(request,"core/contacto.html")
 
-# Create your views here.
-def portfolio(request):
-    return render(request,"core/portafolio.html")
-
 
 # Create your views here.
 def acercade(request):
