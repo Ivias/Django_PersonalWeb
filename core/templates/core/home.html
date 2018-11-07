@@ -2,9 +2,11 @@
 
 {% block title %}Home{% endblock %}
 
-{% block content %}
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
 
-<p>Esta es una presentación de la portada del proyecto</p>
-
+{% block headers %}
+    <h1>Iván Arenal</h1>
+    <span class="subheading">Big Data & Visual Analytics</span>
 {% endblock %}
+
 
